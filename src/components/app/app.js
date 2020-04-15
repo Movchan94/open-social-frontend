@@ -8,6 +8,7 @@ import {
 } from '../../pages'
 import {Route, Switch} from "react-router-dom";
 import Header from "../header";
+import Chats from "../chats";
 
 const App = () => {
     return (
@@ -19,8 +20,7 @@ const App = () => {
                <Route path='/create/' component={Create} exact />
                <Route path='/home/' component={Home} exact />
                <Route path='/login/' component={Login} exact />
-
-
+               <Route path='/chats/' component={Chats} exact />
            </Switch>
             </div>
         </div>

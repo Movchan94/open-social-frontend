@@ -14,7 +14,10 @@ class HeaderDrop extends Component {
         {link: 'login',
             title:'login/logout'},
         {link:'create',
-            title: 'create'}];
+            title: 'create'},
+        {link:'chats',
+            title: 'chats'}
+            ];
     render() {
         return (
             <div className={s.main}>
